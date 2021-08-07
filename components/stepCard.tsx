@@ -9,8 +9,8 @@ function StepCard({ step, style }: StepCardProps) {
       <Typography variant="h4">{step.title}</Typography>
       <Image
         src={step.image}
-        height={100}
-        width={150}
+        height={200}
+        width={250}
         alt={step.title}
         layout="fixed"
       />

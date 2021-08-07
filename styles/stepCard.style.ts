@@ -14,21 +14,21 @@ export const stepCardStyle = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     "& h2": {
-      fontSize: theme.spacing(3) * 0.8,
+      fontSize: theme.spacing(3),
       textAlign: "center",
       margin: theme.spacing(1, 0),
       color: colors.gray,
       fontWeight: "500",
     },
     "& h4": {
-      fontSize: theme.spacing(3) * 0.75, //18px
+      fontSize: theme.spacing(3) * 0.9, //18px
       textAlign: "center",
       fontWeight: "bold",
       marginBottom: theme.spacing(1),
     },
     "& h6": {
-      fontSize: theme.spacing(2),
-      fontWeight: "300",
+      fontSize: theme.spacing(3) * 0.8,
+      fontWeight: "400",
       textAlign: "center",
       margin: theme.spacing(1, 0),
       lineHeight: theme.spacing(1) * 0.2,
