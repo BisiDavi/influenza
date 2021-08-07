@@ -1,0 +1,20 @@
+[
+  {
+    "stage": "STEP 1",
+    "title": "Registration",
+    "image": "/registrationImage.png",
+    "description": "Get started by creating your account on our platform, it's completely free to use"
+  },
+  {
+    "stage": "STEP 2",
+    "title": "Create Campaign",
+    "image": "/createCampaign.png",
+    "description": "Create a campaign describing your brand"
+  },
+  {
+    "stage": "STEP 3",
+    "title": "Hire Influencers",
+    "image": "/hireInfluencers.png",
+    "description": "Screen the influencers with our unique algorithm and find the best choice for your brand"
+  }
+]

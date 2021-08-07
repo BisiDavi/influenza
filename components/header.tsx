@@ -14,24 +14,22 @@ export default function Header() {
   const classes = headerStyle();
 
   return (
-    <header className={classes.header}>
-      <Grid container className={classes.container}>
-        <Grid item xs={1}>
-          <Logo />
+    <Grid component="header" container className={classes.container}>
+      <Grid item xs={1}>
+        <Logo />
+      </Grid>
+      <Grid item xs={7} className={classes.gridContainer}>
+        <Grid item xs={8} className={classes.menuContainer}>
+          {menuLink.map((menu, index) => (
+            <Link key={index} href={menu.link}>
+              <a>{menu.name}</a>
+            </Link>
+          ))}
         </Grid>
-        <Grid item xs={7} className={classes.gridContainer}>
-          <Grid item xs={8} className={classes.menuContainer}>
-            {menuLink.map((menu, index) => (
-              <Link key={index} href={menu.link}>
-                <a>{menu.name}</a>
-              </Link>
-            ))}
-          </Grid>
-          <Grid item xs={3}>
-            <Button className={classes.button}>Login / Register</Button>
-          </Grid>
+        <Grid item xs={3}>
+          <Button className={classes.button}>Login / Register</Button>
         </Grid>
       </Grid>
-    </header>
+    </Grid>
   );
 }

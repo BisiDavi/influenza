@@ -1,4 +1,5 @@
 import { makeStyles } from "@material-ui/core";
+import colors from "./colors.style";
 
 export const headerStyle = makeStyles((theme) => ({
   header: {
@@ -6,7 +7,7 @@ export const headerStyle = makeStyles((theme) => ({
     justifyContent: "space-between",
   },
   button: {
-    backgroundColor: "blue",
+    backgroundColor: colors.blue,
     color: "white",
     fontWeight: "bold",
     padding: theme.spacing(2, 3),
