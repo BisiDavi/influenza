@@ -12,7 +12,7 @@ export default function Logo() {
   const classes = useStyle();
   return (
     <div>
-      <h1 className={classes.logo}>Hire-Now</h1>
+      <h1 className={classes.logo}>Influenza</h1>
     </div>
   );
 }

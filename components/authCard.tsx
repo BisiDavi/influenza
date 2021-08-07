@@ -1,21 +1,19 @@
 import Link from "next/link";
 import { Paper, Button, Typography } from "@material-ui/core";
 import Input from "@components/input";
+import formInput from "@json/authcard.json";
+import { authFormStyle } from "styles/authcard.style";
 
 export default function AuthCard() {
-  const formInput = [
-    { label: "Name", id: "name", type: "text" },
-    { label: "Work email or Phone Number", id: "email/number", type: "email" },
-    { label: "Create Password", id: "password", type: "password" },
-  ];
+  const classes = authFormStyle();
   return (
-    <Paper elevation={3}>
-      <Button>Register using Google</Button>
-      <Button>Register using Linkedin</Button>
-      <div>
-        <span></span>
+    <Paper className={classes.authForm} elevation={3}>
+      <Button className={classes.button}>Register using Google</Button>
+      <Button className={classes.button}>Register using Linkedin</Button>
+      <div className={classes.text}>
+        <hr />
         <Typography component="h6">OR</Typography>
-        <span></span>
+        <hr />
       </div>
       <form>
         {formInput.map((input, index) => (
@@ -27,7 +25,9 @@ export default function AuthCard() {
             <a>terms and conditions</a>
           </Link>
         </Typography>
-        <Button>Register now</Button>
+        <Button className={classes.registerButton} variant="contained">
+          Register now
+        </Button>
       </form>
     </Paper>
   );

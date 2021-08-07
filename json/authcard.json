@@ -1,0 +1,15 @@
+[
+  { "label": "Name", "id": "name", "type": "text", "variant": "outlined" },
+  {
+    "label": "Work email or Phone Number",
+    "id": "email/number",
+    "type": "email",
+    "variant": "outlined"
+  },
+  {
+    "label": "Create Password",
+    "id": "password",
+    "type": "password",
+    "variant": "outlined"
+  }
+]

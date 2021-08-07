@@ -4,7 +4,7 @@ import { stepCardStyle } from "@styles/stepCard.style";
 
 function StepCard({ step, style }: StepCardProps) {
   return (
-    <Grid item className={style} xs={3}>
+    <Grid item className={style} xs={4}>
       <Typography variant="h2">{step.stage}</Typography>
       <Typography variant="h4">{step.title}</Typography>
       <Image

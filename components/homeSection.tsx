@@ -8,16 +8,16 @@ export default function HomeSection() {
   const classes = homeSectionStyle();
   return (
     <Grid component="section" container className={classes.section}>
-      <Grid item xs={8}>
+      <Grid className={classes.banner} item xs={8}>
         <Typography className={classes.intro} variant="h1">
           Hire the
           <span>best Influencers.</span>
         </Typography>
-        <Grid item xs={12}>
+        <Grid className={classes.steps} item xs={12}>
           <StepCards step={steps} />
         </Grid>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={3}>
         <AuthCard />
       </Grid>
     </Grid>

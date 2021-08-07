@@ -30,7 +30,7 @@ export const headerStyle = makeStyles((theme) => ({
     justifyContent: "space-between",
     "& a": {
       fontSize: theme.spacing(3),
-      fontWeight: "300",
+      fontWeight: "400",
     },
   },
 }));
