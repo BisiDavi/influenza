@@ -1,26 +1,26 @@
 [
   {
-    "title": "How to create a campaign?",
-    "text": "Hello, this a demo project, thanks for visiting this project, so to create a campaign, sign up"
+    "question": "How to create a campaign?",
+    "answer": "Hello, this a demo project, thanks for visiting this project, please sign up to explore"
   },
   {
-    "title": "What after shortlisting influencers?",
-    "text": "Hello, this a demo project, thanks for visiting this project, so to create a campaign, sign up"
+    "question": "What after shortlisting influencers?",
+    "answer": "Hello, this a demo project, thanks for visiting this project, please sign up to explore"
   },
   {
-    "title": "Can I invite influencers for my campaign?",
-    "text": "Hello, this a demo project, thanks for visiting this project, so to create a campaign, sign up"
+    "question": "Can I invite influencers for my campaign?",
+    "answer": "Hello, this a demo project, thanks for visiting this project, please sign up to explore"
   },
   {
-    "title": "How to hire an Influencer?",
-    "text": "Hello, this a demo project, thanks for visiting this project, so to create a campaign, sign up"
+    "question": "How to hire an Influencer?",
+    "answer": "Hello, this a demo project, thanks for visiting this project, please sign up to explore"
   },
   {
-    "title": "Can I request for changes in Influencer's submitted content?",
-    "text": "Hello, this a demo project, thanks for visiting this project, so to create a campaign, sign up"
+    "question": "Can I request for changes in Influencer's submitted content?",
+    "answer": "Hello, this a demo project, thanks for visiting this project, please sign up to explore"
   },
   {
-    "title": "How can I connect to an Infuencer?",
-    "text": "Hello, this a demo project, thanks for visiting this project, so to create a campaign, sign up"
+    "question": "How can I connect to an Infuencer?",
+    "answer": "Hello, this a demo project, thanks for visiting this project, please sign up to explore"
   }
 ]
