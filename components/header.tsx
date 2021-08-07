@@ -27,7 +27,7 @@ export default function Header() {
           ))}
         </Grid>
         <Grid item xs={3}>
-          <Button className={classes.button}>Login / Register</Button>
+          <Button className={classes.button}>Hire Now</Button>
         </Grid>
       </Grid>
     </Grid>

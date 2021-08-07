@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Head from "next/head";
 
 import Header from "@components/header";
+import Footer from "@components/footer";
 
 const useStyles = makeStyles({
   layout: {
@@ -21,6 +22,7 @@ export default function Layout({
       </Head>
       <Header />
       {children}
+      <Footer />
     </div>
   );
 }

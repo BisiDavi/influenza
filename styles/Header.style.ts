@@ -12,6 +12,7 @@ export const headerStyle = makeStyles((theme) => ({
     fontWeight: "bold",
     padding: theme.spacing(2, 3),
     width: "100%",
+    fontSize: theme.spacing(3) * 0.8,
   },
   container: {
     display: "flex",

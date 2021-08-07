@@ -7,6 +7,7 @@ export const authFormStyle = makeStyles((theme) => ({
     flexDirection: "column",
     alignItems: "center",
     padding: theme.spacing(4, 2),
+    borderRadius:theme.spacing(3)
   },
   button: {
     margin: theme.spacing(2, 0),
@@ -32,7 +33,7 @@ export const authFormStyle = makeStyles((theme) => ({
     backgroundColor: colors.gray,
     width: "100%",
     color: "white",
-    padding:theme.spacing(1, 0),
-    margin: theme.spacing(2,0)
+    padding: theme.spacing(2, 0),
+    margin: theme.spacing(2, 0),
   },
 }));

@@ -7,7 +7,7 @@ import { authFormStyle } from "styles/authcard.style";
 export default function AuthCard() {
   const classes = authFormStyle();
   return (
-    <Paper className={classes.authForm} elevation={3}>
+    <Paper className={classes.authForm} elevation={4}>
       <Button className={classes.button}>Register using Google</Button>
       <Button className={classes.button}>Register using Linkedin</Button>
       <div className={classes.text}>
