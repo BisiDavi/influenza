@@ -1,6 +1,6 @@
 import { Typography, Grid } from "@material-ui/core";
 
-import displaySteps from "@components/stepCard";
+import { AuthCard, StepCards } from "@components/.";
 import { homeSectionStyle } from "@styles/homeSection.style";
 import steps from "@json/steps-home.json";
 
@@ -14,10 +14,12 @@ export default function HomeSection() {
           <span>best Influencers.</span>
         </Typography>
         <Grid item xs={12}>
-          {displaySteps(steps)}
+          <StepCards step={steps} />
         </Grid>
       </Grid>
-      <Grid item xs={4}></Grid>
+      <Grid item xs={4}>
+        <AuthCard />
+      </Grid>
     </Grid>
   );
 }

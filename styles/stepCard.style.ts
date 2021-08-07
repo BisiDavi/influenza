@@ -24,10 +24,11 @@ export const stepCardStyle = makeStyles((theme) => ({
       fontSize: theme.spacing(3) * 0.75, //18px
       textAlign: "center",
       fontWeight: "bold",
+      marginBottom: theme.spacing(1),
     },
     "& h6": {
       fontSize: theme.spacing(2),
-      fontWeight: "200",
+      fontWeight: "300",
       textAlign: "center",
       margin: theme.spacing(1, 0),
       lineHeight: theme.spacing(1) * 0.2,

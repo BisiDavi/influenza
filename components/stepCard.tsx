@@ -19,7 +19,7 @@ function StepCard({ step, style }: StepCardProps) {
   );
 }
 
-export default function displaySteps(step: stepType[]) {
+export default function StepCards({ step }: StepCardsProps) {
   const classes = stepCardStyle();
 
   return (
@@ -41,4 +41,8 @@ type stepType = {
 interface StepCardProps {
   step: stepType;
   style: any;
+}
+
+interface StepCardsProps {
+  step: stepType[];
 }
