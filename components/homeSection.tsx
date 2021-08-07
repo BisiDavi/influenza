@@ -3,6 +3,7 @@ import { Typography, Grid } from "@material-ui/core";
 import { AuthCard, StepCards } from "@components/.";
 import { homeSectionStyle } from "@styles/homeSection.style";
 import steps from "@json/steps-home.json";
+import TypedWord from "./typewriter";
 
 export default function HomeSection() {
   const classes = homeSectionStyle();
@@ -11,7 +12,9 @@ export default function HomeSection() {
       <Grid className={classes.banner} item xs={8}>
         <Typography className={classes.intro} variant="h1">
           Hire the
-          <span>best Influencers.</span>
+          <span>
+            <TypedWord />
+          </span>
         </Typography>
         <Grid className={classes.steps} item xs={12}>
           <StepCards step={steps} />

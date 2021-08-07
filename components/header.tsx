@@ -6,9 +6,9 @@ import { headerStyle } from "@styles/Header.style";
 
 export default function Header() {
   const menuLink = [
-    { name: "Home", link: "/" },
-    { name: "Browse Influencers", link: "/browse-influencers" },
-    { name: "Browse Campaigns", link: "/browse-campaigns" },
+    { name: "Home", link: "#" },
+    { name: "Browse Influencers", link: "#browse-influencers" },
+    { name: "Browse Campaigns", link: "#browse-campaigns" },
   ];
 
   const classes = headerStyle();

@@ -18,6 +18,8 @@ export const homeSectionStyle = makeStyles((theme) => ({
     fontWeight: "bold",
     margin: theme.spacing(3, 0),
     textAlign: "center",
+    display: "flex",
+    alignItems: "center",
     letterSpacing: theme.spacing(1) * 0.5,
     "& span": {
       margin: theme.spacing(0, 1),
